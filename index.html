@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="info-box">
+        <h1 class="title">Let's Play Tic Tac Toe</h1>
+      </div>
+      <div class="game-box">
+        <div class="box">
+          <div class="input-box border-bottom border-right"></div>
+          <div class="input-box border-bottom border-right"></div>
+          <div class="input-box border-bottom"></div>
+          <div class="input-box border-bottom border-right"></div>
+          <div class="input-box border-bottom border-right"></div>
+          <div class="input-box border-bottom"></div>
+          <div class="input-box border-right"></div>
+          <div class="input-box border-right"></div>
+          <div class="input-box"></div>
+        </div>
+      </div>
+      <div class="turn-display">
+        <p class="text" id="text" data-text></p>
+      </div>
+      <div class="message-box" id="message">
+        <div class="message" data-message></div>
+        <button class="new-game-btn" id="new-game-btn">New Game</button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
